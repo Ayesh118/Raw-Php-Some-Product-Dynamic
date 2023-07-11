@@ -1,0 +1,16 @@
+{
+  "name": "prectice/prectice",
+  "type": "project",
+  "description": "a simple php project",
+  "keywords": [],
+  "license": "",
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    },
+    "files":["app/helpers/helper.php"]
+  }
+
+}
